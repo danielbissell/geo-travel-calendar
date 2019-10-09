@@ -1,0 +1,110 @@
+
+.state {
+    fill: #e3e3e3;
+    stroke: black;
+}
+
+circle {
+  opacity: .8
+
+}
+  .cityLabel{
+
+    font-size: 13px;
+    font-weight: bold;
+
+  }
+
+  .ticked {
+    fill: green;
+
+  }
+
+body{
+  background: #e3e3e3;
+}
+
+#slide{
+  color: black;
+  width: 390px;
+}
+
+.chart{
+  stroke-dasharray: 1,1;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#monthLabels {
+  display: flex;
+  flex-direction: row;
+
+}
+.singleMonth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  border: solid #e3e3e3 1px;
+
+
+}
+
+.singleMonthTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  border: solid #e3e3e3 1px;
+
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  height: auto;
+  background: none repeat scroll 0 0 rgba(31, 31, 31, 0.6);
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: left;
+  color: #fff;
+  box-shadow: 1px 1px 20px rgba(31, 31, 31, 0.6);
+  font-size: 10px;
+
+ /* min-width: 80px;
+
+
+ */
+}
+#sliderAmount{
+  color: #e3e3e3;
+  margin-bottom: -10px;
+  font-size: 0px;
+}
+#employeeCount{
+  display: flex;
+  flex-direction: row;
+  min-height: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+#inOfficeBox{
+text-align: center;
+margin-right: 40px;
+margin-bottom: -10px;
+}
+
+h4{
+margin-top: 0px;
+margin-bottom: -10px;
+}
+#footer{
+text-align: left;
+font-size: 10px;
+margin-left: 200px
+}

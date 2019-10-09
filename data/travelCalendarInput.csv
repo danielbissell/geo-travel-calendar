@@ -1,0 +1,20 @@
+AM,CityState,Date,Customer,Lat,Long,Month,Year,MonthNumber
+Danny Bissell,"Shelton, CT","November, 3, 2020",Unilever,41.30600,-73.13830,November,2020,11
+Pepper May,"Seattle, WA","June, 22, 2019",Minno and Co. ,47.62110,-122.32440,June,2019,6
+Sarah May,"Los Angeles, CA","September, 12, 2019",Amazon,34.11390,-118.40680,September,2019,9
+Cool Guy,"Boston, MA","June, 23, 2019",Pepsi,42.31880,-71.08460,June,2019,6
+Sparky Bissell,"Austin, TX","February, 23, 2019",Mouse House,30.30060,-97.75170,February,2019,2
+Dwight Shrute,"Chicago, IL","February, 25, 2019",Pizza Factory,41.83730,-87.68610,February,2019,2
+Tom Boola,"Portland, OR","July, 10, 2019",Plant Co. ,45.53720,-122.65000,July,2019,7
+William Tompson,"Beloit, WI","September, 17, 2019",Mucho Inc.,42.52300,-89.01840,September,2019,9
+Bob Grader,"Miami, FL","July, 25, 2019",Diamond Fitters,25.78400,-80.21020,July,2019,7
+Thomas Jeans,"Stockton, CA","June, 11, 2019",Blue Herring,37.97660,-121.31120,June,2019,6
+Elliot Chocolate,"Eugene, OR","November, 3, 2019",Hello Industries,44.05630,-123.11730,November,2019,11
+Denny Williamson,"Salem, OR","November, 28, 2019",Apps Time,44.92320,-123.02450,November,2019,11
+James Frank,"Wilmer, TX","October, 23, 2019",Super Co.,32.59830,-96.68170,October,2019,10
+David Eli,"Tampa, FL","October, 9, 2019",USA Brands,27.99370,-82.44540,October,2019,10
+Willy Albers,"Oklahoma City, OK","October, 7, 2019",Paper and Paper,35.46760,-97.51360,October,2019,10
+Maple Cats,"Beloit, WI","November, 28, 2019",Junk Bonds,42.52300,-89.01840,November,2019,11
+Jarrod Kats,"Fargo, ND","January, 4, 2019",Life Industries,46.86530,-96.82920,January,2019,1
+Marcie Big,"New York, NY","February 2, 2019",iPhones and Co,40.69430,-73.92490,February,2019,2
+John Aler,"Shelton, CT","March, 4, 2019",Left Brands,41.30600,-73.13830,March,2019,3

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <title>externalStyle.html</title>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "styles.css" />
+
+   <script src="https://d3js.org/d3.v4.min.js"></script>
+   <script src="https://d3js.org/topojson.v1.min.js"></script>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js'></script>
+   <script src='https://d3js.org/d3-scale-chromatic.v1.min.js'></script>
+   <script type="text/javascript" src="index4.js"></script>
+ </head>
+ <body>
+     
+<div id="app">
+  
+    <div id="title">Travel Calendar</div>
+   
+</br>
+
+<div id="monthLabels">
+        <div class="singleMonth">All</div>
+        <div class="singleMonth">Jan</div>
+        <div class="singleMonth">Feb</div>
+        <div class="singleMonth">Mar</div>
+        <div class="singleMonth">Apr</div>
+        <div class="singleMonth">May</div>
+        <div class="singleMonth">Jun</div>
+        <div class="singleMonth">Jul</div>
+        <div class="singleMonth">Aug</div>
+        <div class="singleMonth">Sep</div>
+        <div class="singleMonthTwo">Oct</div>
+        <div class="singleMonthTwo">Nov</div>
+        <div class="singleMonthTwo">Dec</div>
+</div>
+
+<div>
+<input id="slide" type="range" min="0" max="12" step="1" value="0" list="steplist" onchange="updateSlider(this.value)">
+<datalist id="steplist">
+    <option>0</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+    <option>11</option>
+    <option>12</option>
+
+</datalist>
+<div id="sliderAmount">0</div>​
+</div>
+
+<div id="employeeCount">
+  <div id="inOfficeBox">
+<h4>Team Members in the Office</h4>
+<p id="inOffice"></p>
+  </div>
+
+  <div>
+<h4>Team Members on the Road</h4>
+<p id="onRoad"></p>
+<p id="onRoadAM"></p>
+
+  </div>
+</div>
+
+
+<script>
+    var form = document.getElementById('controlForm');
+    //slider
+    function updateSlider(slideAmount) {
+          var sliderDiv = document.getElementById("sliderAmount");
+          sliderDiv.innerHTML = slideAmount;
+          testFunction(slideAmount);
+      }
+    //end slider
+</script>
+
+<div class="chart"> </div>
+ 
+</div>
+
+<div id="footer">Daniel Bissell Design &copy </br></div>
+
+ </body>
+</html>
